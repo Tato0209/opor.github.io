@@ -1,5 +1,43 @@
-/* Estilos generales (similar al ejemplo anterior) */
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: #0074b7;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos para secciones específicas */
 .destacados, .categorias {
     background-color: #fff;
     padding: 20px;
@@ -8,10 +46,36 @@
     margin-bottom: 20px;
 }
 
-/* Estilos específicos para secciones */
 .destacados h2, .categorias h2 {
     color: #0074b7;
 }
 
 /* Estilos para productos y categorías */
-/* Añade aquí tus estilos específicos para estos elementos */
+.producto {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para botones */
+.btn {
+    background-color: #0074b7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #00578e;
+}
+
+/*
+
